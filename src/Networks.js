@@ -342,7 +342,7 @@ const networks = {
     apiName: "uno",
     bitcoinjs: {
       messagePrefix: "Unobtanium Signed Message:",
-      bip32: { public: 0x0488B21E, private:  },
+      bip32: { public: 0x0488B21E, private: 76067358 },
       pubKeyHash: 130,
       scriptHash: 30,
       wif: 128
