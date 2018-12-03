@@ -335,6 +335,20 @@ const networks = {
       wif: 128
     }
   },
+  92: {
+    name: "unobtanium",
+    satoshi: 8,
+    unit: "UNO",
+    apiName: "uno",
+    bitcoinjs: {
+      messagePrefix: "Unobtanium Signed Message:",
+      bip32: { public: 0x0488B21E, private:  },
+      pubKeyHash: 130,
+      scriptHash: 30,
+      wif: 128
+    },
+    isSegwitSupported: false
+  },
   3: {
     name: "dogecoin",
     satoshi: 8,
